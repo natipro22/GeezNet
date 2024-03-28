@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/GeezDemo/obj/Release/net8.0
+/GeezNet/bin/Release
+/GeezNet/obj/Release
