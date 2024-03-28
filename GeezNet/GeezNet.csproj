@@ -4,7 +4,24 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>GeezNet</Title>
+    <Authors>Natnael Yirga</Authors>
+	<PackageOutputPath>./nupkg</PackageOutputPath>
+    <Company />
+    <Description>GeezNet is a .NET library designed to facilitate the conversion between ASCII numbers and Geez numbers, and vice versa. The library provides functionality to convert numeric values represented in ASCII format (e.g., '1234') to their corresponding Geez representation (e.g., '፲፪፻፴፬'), and conversely, it can convert Geez numbers to their ASCII equivalents.</Description>
+    <PackageProjectUrl>https://github.com/natipro22/GeezNet</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/natipro22/GeezNet</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>.NET; Geez; Conversion; ASCII; Geez Script; Language; Numerical Conversion; Bidirectional Conversion; Library; .NET Library; Geez Language; Ethiopian; Eritrean; Semitic Language; Numeric Representation;  Aksumite Kingdom; Ethiopian Empire; Geez Numerals; Geez Numbers; ASCII Numbers;</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />

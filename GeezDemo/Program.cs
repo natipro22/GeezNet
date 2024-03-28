@@ -13,7 +13,6 @@ using IHost host = builder.Build();
 
 var examples = host.Services.GetRequiredService<Example>();
 examples.Show();
-
 await host.RunAsync();
 
 
