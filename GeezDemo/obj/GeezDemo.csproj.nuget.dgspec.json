@@ -1,34 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezDemo\\GeezDemo.csproj": {}
+    "D:\\Visual Studio Projects\\GeezNet\\GeezDemo\\GeezDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezDemo\\GeezDemo.csproj": {
+    "D:\\Visual Studio Projects\\GeezNet\\GeezDemo\\GeezDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezDemo\\GeezDemo.csproj",
+        "projectUniqueName": "D:\\Visual Studio Projects\\GeezNet\\GeezDemo\\GeezDemo.csproj",
         "projectName": "GeezDemo",
-        "projectPath": "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezDemo\\GeezDemo.csproj",
-        "packagesPath": "C:\\Users\\Mohammed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezDemo\\obj\\",
+        "projectPath": "D:\\Visual Studio Projects\\GeezNet\\GeezDemo\\GeezDemo.csproj",
+        "packagesPath": "C:\\Users\\devs\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio Projects\\GeezNet\\GeezDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mohammed\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\devs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezNet\\GeezNet.csproj": {
-                "projectPath": "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezNet\\GeezNet.csproj"
+              "D:\\Visual Studio Projects\\GeezNet\\GeezNet\\GeezNet.csproj": {
+                "projectPath": "D:\\Visual Studio Projects\\GeezNet\\GeezNet\\GeezNet.csproj"
               }
             }
           }
@@ -37,11 +38,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,27 +70,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezNet\\GeezNet.csproj": {
+    "D:\\Visual Studio Projects\\GeezNet\\GeezNet\\GeezNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezNet\\GeezNet.csproj",
+        "projectUniqueName": "D:\\Visual Studio Projects\\GeezNet\\GeezNet\\GeezNet.csproj",
         "projectName": "GeezNet",
-        "projectPath": "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezNet\\GeezNet.csproj",
-        "packagesPath": "C:\\Users\\Mohammed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezNet\\obj\\",
+        "projectPath": "D:\\Visual Studio Projects\\GeezNet\\GeezNet\\GeezNet.csproj",
+        "packagesPath": "C:\\Users\\devs\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio Projects\\GeezNet\\GeezNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mohammed\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\devs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -91,11 +104,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -112,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

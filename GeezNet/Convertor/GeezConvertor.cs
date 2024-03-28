@@ -2,7 +2,7 @@ using System;
 using GeezNet.Exceptions;
 
 namespace GeezNet.Convertor;
-public class GeezConvertor : Convertor
+public class GeezConvertor : Convertor, IGeezConvertor
 {
     public string Convert(string asciiNumber)
     {

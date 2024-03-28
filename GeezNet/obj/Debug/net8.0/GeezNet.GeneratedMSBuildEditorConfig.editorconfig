@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GeezNet
-build_property.ProjectDir = C:\Users\Mohammed\AngelSoftwares\GeezNet\GeezNet\
+build_property.ProjectDir = D:\Visual Studio Projects\GeezNet\GeezNet\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

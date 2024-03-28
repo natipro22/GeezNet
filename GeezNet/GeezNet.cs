@@ -2,40 +2,25 @@ using GeezNet.Convertor;
 
 namespace GeezNet;
 
-public class Geez
+public class Geez : IGeez
 {
-    private readonly GeezConvertor geezConvertor;
-    private readonly AsciiConvertor asciiConvertor;
+    private readonly IGeezConvertor _geezConvertor;
+    private readonly IAsciiConvertor _asciiConvertor;
 
-    public Geez(GeezConvertor geezConvertor, AsciiConvertor asciiConvertor)
+    public Geez(IGeezConvertor geezConvertor, IAsciiConvertor asciiConvertor)
     {
-        this.geezConvertor = geezConvertor;
-        this.asciiConvertor = asciiConvertor;
-    }
-
-    public static Geez Create()
-    {
-        return new Geez(new GeezConvertor(), new AsciiConvertor());
+        this._geezConvertor = geezConvertor;
+        this._asciiConvertor = asciiConvertor;
     }
 
     public string ToGeez(int asciiNumber)
     {
-        return geezConvertor.Convert(asciiNumber.ToString());
+        return _geezConvertor.Convert(asciiNumber.ToString());
     }
 
     public int ToAscii(string geezNumber)
     {
-        return asciiConvertor.Convert(geezNumber);
-    }
-
-    public GeezConvertor GetGeezConverter()
-    {
-        return geezConvertor;
-    }
-
-    public AsciiConvertor GetAsciiConvertor()
-    {
-        return asciiConvertor;
+        return _asciiConvertor.Convert(geezNumber);
     }
 }
 

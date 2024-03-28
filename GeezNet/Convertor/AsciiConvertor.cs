@@ -7,7 +7,7 @@ using GeezNet.Services;
 
 namespace GeezNet.Convertor;
 
-public class AsciiConvertor : Convertor
+public class AsciiConvertor : Convertor, IAsciiConvertor
 {
     public int Convert(string geezNumber)
     {

@@ -9,3 +9,16 @@ C:\Users\Mohammed\AngelSoftwares\GeezNet\GeezNet\obj\Debug\net8.0\GeezNet.dll
 C:\Users\Mohammed\AngelSoftwares\GeezNet\GeezNet\obj\Debug\net8.0\refint\GeezNet.dll
 C:\Users\Mohammed\AngelSoftwares\GeezNet\GeezNet\obj\Debug\net8.0\GeezNet.pdb
 C:\Users\Mohammed\AngelSoftwares\GeezNet\GeezNet\obj\Debug\net8.0\ref\GeezNet.dll
+D:\Visual Studio Projects\GeezNet\GeezNet\bin\Debug\net8.0\GeezNet.deps.json
+D:\Visual Studio Projects\GeezNet\GeezNet\bin\Debug\net8.0\GeezNet.dll
+D:\Visual Studio Projects\GeezNet\GeezNet\bin\Debug\net8.0\GeezNet.pdb
+D:\Visual Studio Projects\GeezNet\GeezNet\obj\Debug\net8.0\GeezNet.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\GeezNet\GeezNet\obj\Debug\net8.0\GeezNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Projects\GeezNet\GeezNet\obj\Debug\net8.0\GeezNet.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\GeezNet\GeezNet\obj\Debug\net8.0\GeezNet.AssemblyInfo.cs
+D:\Visual Studio Projects\GeezNet\GeezNet\obj\Debug\net8.0\GeezNet.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\GeezNet\GeezNet\obj\Debug\net8.0\GeezNet.sourcelink.json
+D:\Visual Studio Projects\GeezNet\GeezNet\obj\Debug\net8.0\GeezNet.dll
+D:\Visual Studio Projects\GeezNet\GeezNet\obj\Debug\net8.0\refint\GeezNet.dll
+D:\Visual Studio Projects\GeezNet\GeezNet\obj\Debug\net8.0\GeezNet.pdb
+D:\Visual Studio Projects\GeezNet\GeezNet\obj\Debug\net8.0\ref\GeezNet.dll

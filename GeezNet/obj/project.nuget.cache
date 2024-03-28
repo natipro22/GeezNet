@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XUeUDrkHO/CH7WswXV8xgSoOIUpVMeGxxRYklNS5MpO4fRVYEUwfJi8Q3IQmlYW79qUpFdS/zzkkEDVVQR28EQ==",
+  "dgSpecHash": "kuMi+BZBmWLlNtod22kvMhVonwsknCKb1jKw1HbTHGQlngQUJG+a2Ot/jwz8IVYqJPzoYt/vTfXqrKTeX/MAOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mohammed\\AngelSoftwares\\GeezNet\\GeezNet\\GeezNet.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Visual Studio Projects\\GeezNet\\GeezNet\\GeezNet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\devs\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\devs\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

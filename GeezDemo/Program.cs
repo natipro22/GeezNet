@@ -1,17 +1,19 @@
 ﻿using System.Text;
+using GeezDemo;
 using GeezNet;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 Console.OutputEncoding = Encoding.UTF8;
-var geez = Geez.Create();
-Console.WriteLine(geez.ToGeez(123));              // ፻፳፫
-Console.WriteLine(geez.ToGeez(1234));             // ፲፪፻፴፬
-Console.WriteLine(geez.ToGeez(1986));             // ፲፱፻፹፮
-Console.WriteLine(geez.ToGeez(1000000));          // ፻፼
+HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
 
-// or you can even do the reverse
-// this is the tricky part you wouldn't see else where
-// at least for now
+builder.Services.AddGeezNet();
+builder.Services.AddTransient<Example>();
 
-Console.WriteLine(geez.ToAscii("፻፳፫"));           // 123
-Console.WriteLine(geez.ToAscii("፲፪፻፴፬"));         // 1234
-Console.WriteLine(geez.ToAscii("፲፱፻፹፮"));        // 1986
-Console.WriteLine(geez.ToAscii("፻፼"));
+using IHost host = builder.Build();
+
+var examples = host.Services.GetRequiredService<Example>();
+examples.Show();
+
+await host.RunAsync();
+
+
